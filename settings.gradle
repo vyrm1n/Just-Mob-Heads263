@@ -46,5 +46,3 @@ plugins {
 rootProject.name = 'Just-Mob-Heads-26,3,0'
 include("Common")
 include("Fabric")
-include("Forge")
-include("NeoForge")

@@ -91,17 +91,11 @@ processResources {
             'fabric_loader_version'        : fabric_loader_version,
             'mod_name'                     : mod_name,
             'mod_author'                   : mod_author,
-            'mod_id'                       : mod_id,
-            'neoforge_version'             : neoforge_version,
-            "forge_version"                : forge_version
+            'mod_id'                       : mod_id
     ]
 
     var jsonExpandProps = expandProps.collectEntries {
         key, value -> [(key): value instanceof String ? value.replace("\n", "\\\\n") : value]
-    }
-
-    filesMatching(['META-INF/mods.toml', 'META-INF/neoforge.mods.toml']) {
-        expand expandProps
     }
 
     filesMatching(['pack.mcmeta', 'fabric.mod.json', '*.mixins.json']) {

@@ -4,7 +4,7 @@
   "version": "9.4",
 
   "name": "Just Mob Heads",
-  "description": "Mobs have a configurable chance to drop their heads on death. Uses lag-free vanilla resources. Collect them all!",
+  "description": "Mobs have a configurable chance to drop their heads on death. Uses lag-free vanilla resources. Collect them all! (Unofficial Fabric-only port for Minecraft 26.3.)",
   "authors": [ "Rick South" ],
   "contact": {
     "homepage": "https://serilum.com/mod/just-mob-heads",

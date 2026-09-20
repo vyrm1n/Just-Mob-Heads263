@@ -1,11 +1,12 @@
-<h2>Just Mob Heads</h2>
+<h2>Just Mob Heads (Fabric 26.3 port)</h2>
+<p><strong>This is an unofficial, AI-assisted, Fabric-only port of Just Mob Heads to Minecraft 26.3.</strong> It only builds the Fabric version. The Forge and NeoForge modules have been removed from this fork. It requires Fabric Loader 0.19.5+, Fabric API and <a href="https://curseforge.com/minecraft/mc-mods/collective">Collective</a> 8.39+ for 26.3. The original multi-loader mod by Serilum is at <a href="https://github.com/Serilum/Just-Mob-Heads">Serilum/Just-Mob-Heads</a>. Issues with this port belong in this repository, not in Serilum's issue tracker.</p>
 <p><a href="https://github.com/Serilum/Just-Mob-Heads"><img src="https://serilum.com/assets/images/logo/just-mob-heads.png"></a></p><h2>Download</h2>
 <p>You can download Just Mob Heads on CurseForge and Modrinth:</p><p>&nbsp;&nbsp;CurseForge: &nbsp;&nbsp;<a href="https://curseforge.com/minecraft/mc-mods/just-mob-heads">https://curseforge.com/minecraft/mc-mods/just-mob-heads</a><br>&nbsp;&nbsp;Modrinth: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://modrinth.com/mod/just-mob-heads">https://modrinth.com/mod/just-mob-heads</a></p>
 <h2>Issue Tracker</h2>
 <p>To keep a better overview of all mods, the issue tracker is located in a separate repository.<br>&nbsp;&nbsp;For issues, ideas, suggestions or anything else, please follow this link:</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;-> <a href="https://serilum.com/url/issue-tracker">Issue Tracker</a></p>
 <h2>Pull Requests</h2>
-<p>Because of the way mod loader files are bundled into one jar, some extra information is needed to do a PR.<br>&nbsp;&nbsp;A wiki page entry about it is available here:</p>
+<p>This fork is Fabric-only, so the upstream multi-loader bundling notes do not apply. For the original mod, see the upstream pull request information:</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;-> <a href="https://serilum.com/url/pull-requests">Pull Request Information</a></p>
 <h2>Mod Description</h2>
 <p style="text-align:center"><a href="https://serilum.com/" target="_blank" rel="nofollow"><img src="https://cdn.serilum.com/description/header/header.png" alt="A Serilum Mod. Made with love. Lots of active mods for Fabric, Forge and Neo!" width="838" height="400"></a></p>
@@ -13,7 +14,7 @@
 <h2><br><img src="https://cdn.serilum.com/description/nameplate/about-the-mod.svg" alt="About the mod" width="838" height="64"></h2>
 <p><span style="font-size:18px">Just Mob Heads is a minimalistic mod that adds a configurable chance for mobs to drop their head on death. You can also generate every available mob head via commands. Mob heads will keep their name after placement and pickup with the mod installed.<br><br>There are config options available to make mob heads only drop on player kill or only by charged creepers.</span><br><br></p>
 <p>I've also got a&nbsp;<strong><span style="color:#f90"><a style="color:#f90" href="https://curseforge.com/minecraft/mc-mods/just-player-heads" rel="nofollow">Just Player Heads</a></span></strong>&nbsp;mod available!<br><br></p>
-<p><span style="font-size:24px"><strong>Updated to 26.2, get the Sulfur Cube head now! :)</strong></span><br><picture><img src="https://cdn.serilum.com/projects/just-mob-heads/m.png" width="1127" height="644"></picture></p>
+<p><span style="font-size:24px"><strong>Updated to 26.3 (Fabric only), Sulfur Cube head included! :)</strong></span><br><picture><img src="https://cdn.serilum.com/projects/just-mob-heads/m.png" width="1127" height="644"></picture></p>
 <h2><br><br><img src="https://cdn.serilum.com/description/nameplate/dependencies.svg" alt="Dependencies" width="838" height="64"></h2>
 <p><a href="https://curseforge.com/minecraft/mc-mods/collective" target="_blank" rel="nofollow"><img src="https://cdn.serilum.com/description/badges/dependencies/requires/collective.svg" alt="Requires Collective" width="251" height="49"></a><br><a href="https://curseforge.com/minecraft/modpacks/the-vanilla-experience" target="_blank" rel="nofollow"><img src="https://cdn.serilum.com/description/badges/dependencies/includes/the-vanilla-experience.svg" alt="Included in The Vanilla Experience" width="350" height="49"></a><a href="https://curseforge.com/minecraft/mc-mods/serilums-rpg-bundle" target="_blank" rel="nofollow"><img src="https://cdn.serilum.com/description/badges/dependencies/includes/rpg-bundle.svg" alt="Included in Serilum&#x27;s RPG Bundle" width="334" height="49"></a><br><img src="https://cdn.serilum.com/description/badges/environment/server.svg" alt="Environment: Server" width="220" height="49"></p>
 <h2><br><br><br><img src="https://cdn.serilum.com/description/nameplate/configurable.svg" alt="Configurable" width="838" height="64"></h2>
