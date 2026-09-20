@@ -1,6 +1,7 @@
 plugins {
     id 'multiloader-loader'
     id 'net.fabricmc.fabric-loom'
+    id 'com.gradleup.shadow' version '9.6.1'
 }
 
 repositories {
@@ -61,5 +62,22 @@ sourceSets.configureEach {
                 attribute(loaderAttribute, 'fabric')
             }
         }
+    }
+}
+
+// The Collective jar that Serilum publishes (CurseForge/Modrinth) has its shared code relocated to
+// com.natamus.collective_common_fabric, while the Maven artifact we compile against uses
+// com.natamus.collective. Relocate our references so the built jar works with the published Collective.
+// The com.natamus.collective.fabric.* packages are not relocated in the published jar.
+jar {
+    archiveClassifier = 'dev'
+}
+
+shadowJar {
+    archiveClassifier = ''
+    configurations = [] // bundle only this mod's own classes
+    ['check', 'cmds', 'config', 'data', 'events', 'fakeplayer', 'features', 'functions', 'globalcallbacks',
+     'implementations', 'networking', 'objects', 'schematic', 'services', 'translations', 'util'].each {
+        relocate "com.natamus.collective.${it}", "com.natamus.collective_common_fabric.${it}"
     }
 }
